@@ -20,8 +20,12 @@ body {
         word-wrap: break-word;
         z-index: 2;
         position: absolute;
-        text-shadow: 0 0 5px #ff0000, 0 0 10px #00ffe5, 0 0 20px #fcfcfc, 0 0 40px #703ef1;}
-
+        text-shadow: 0 0 5px #ff0000, 0 0 10px #00ffe5, 0 0 20px #fcfcfc, 0 0 40px #703ef1;
+    }
+    .container {
+      position: absolute;
+      margin-top: 35%;
+    }
 
     /* Responsif */
     @media (max-width: 768px) {
