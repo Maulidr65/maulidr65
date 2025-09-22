@@ -1,0 +1,37 @@
+body {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+      background: #000;
+      color: #fff;
+      display: flex;              /* aktifkan flexbox */
+      justify-content: center;    /* horizontal center */
+      align-items: center;        /* vertical center */
+      height: 100vh;              /* tinggi layar penuh */
+      text-align: center;
+    }
+    h1 {
+    font-size: 50px;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        margin: 0;
+        padding: 0 10px;
+        word-wrap: break-word;
+        z-index: 2;
+        position: absolute;
+        text-shadow: 0 0 5px #ff0000, 0 0 10px #00ffe5, 0 0 20px #fcfcfc, 0 0 40px #703ef1;}
+
+
+    /* Responsif */
+    @media (max-width: 768px) {
+      h1 {
+        font-size: 32px;
+      }
+    }
+
+    @media (max-width: 480px) {
+      h1 {
+        font-size: 22px;
+      }
+    }
